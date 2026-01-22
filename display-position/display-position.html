@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <style>
         * {
             font-size: 32px;
+
         }
 
         #block {
@@ -16,7 +18,7 @@
         }
 
         #inline-span {
-            background-color: red;     
+            background-color: red;
         }
 
         #inline-block {
@@ -31,12 +33,49 @@
             background: blue;
             color: white;
         }
+
+        #parent {
+            background: #FA5C5C;
+            margin-top: 32px;
+            height: 200vh;
+            position: relative;
+        }
+
+        #child-1 {
+            background: #FD8A6B;
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+
+        #child-2 {
+            background: #FEC288;
+            position: fixed;
+            top: 0;
+        }
+
+        #child-3 {
+            background: #FBEF76;
+            position: sticky;
+            top: 0;
+        }
     </style>
 </head>
+
 <body>
+    <!--Display Property-->
     <div id="block">This is display block</div>
     <span id="inline-span">Hello Dalandani</span>
     <div id="inline-block">Hello Dalandan</div>
     <div id="none">Hello Dalandan & Dalandani</div>
+
+    <!--Position Property-->
+    <div id="parent">
+        My name is Parent
+        <div id="child-1">My name is child 1</div>
+        <div id="child-2">My name is child 2</div>
+        <div id="child-3">My name is child 3</div>
+    </div>
 </body>
+
 </html>
