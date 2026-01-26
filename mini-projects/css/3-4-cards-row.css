@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    background: #A8F1FF;
+    font-family: "Mona Sans", sans-serif;
+    font-style: normal;
+    height: 100vh;  /* Full viewport height for vertical centering */
+}
+
+.main-container {
+    background: whitesmoke;
+    width: 400px;
+    border-radius: 12px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    
+}
+
+.cover-photo {
+    margin: 3px;
+    overflow: hidden;
+
+}
+
+.cover-photo .cover {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.profile-pic {
+    display: flex;
+    width: 20%;
+    height: 0;
+}
+
+.profile-pic .profile {
+    position: relative;
+    top: -65px;
+    left: 50%;
+    transform: translateX(-30%);
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 100%;
+    border-radius: 100%;
+}
+
+.container-wrapper {
+    margin: 0 14px 0 14px;
+}
+
+.link-icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 16px;
+}
+
+.link-icons .icons {
+    background: #5cade4;
+    padding: 1px 2px 1px 2px;
+    border-radius: 5px;
+}
+
+section {
+    margin: 12px 0 12px 0;
+}
+
+.cards-row {
+    margin: 8px 0 0 0;
+
+}
+
+.cards-row .name {
+    font-size: 18px;
+    color: rgb(61, 61, 78);
+    font-weight: 600;
+    line-height: 28px;
+}
+
+span {
+    font-size: 12px;
+    color: #9d9c9d;
+    font-weight: 400;
+}
+
+.cards-row .location {
+    font-size: 12px;
+    color: #9d9c9d;
+    margin: 5px 0 12px 0;
+}
+
+.cards-row .bio {
+    text-align: justify;
+    color: #535353;
+    font-size: 12px;
+    line-height: 24px;
+}
+
+.section-container .title {
+    margin: 0 0 8px 0;
+    font-weight: 600;
+    font-weight: 12px;
+}
+
+.section-container .my-skills {
+    display: flex;
+    font-size: 12px;
+    gap: 12px;
+}
+
+.section-container .my-skills .front-end {
+    background: #cdfece;
+    padding: 5px 8px 5px 8px;
+    border-radius: 8px;
+    font-size: 12px;
+}
+
+.section-container .my-skills .back-end {
+    background: #cbeffd;
+    padding: 5px 8px 5px 8px;
+    border-radius: 8px;
+    font-size: 12px;
+}
+
+.section-container .my-skills .ui-ux {
+    background: #ecd8fe;
+    padding: 5px 8px 5px 8px;
+    border-radius: 8px;
+    font-size: 12px;
+}
+
+.section-container .tools-container {
+    display: flex;
+    gap: 5px;
+}
+
+.section-container a {
+    text-decoration: none;
+    font-size: 12px;
+    background: white;
+    padding: 5px 8px 5px 8px;
+    border-radius: 8px;
+}
+
+.section-container .rates-container {
+    display: flex;
+    font-size: 12px;
+    gap: 12px;
+}
+
+.section-container .rates-container .rates-hr {
+    background: #fde5fc;
+    padding: 5px 8px 5px 8px;
+    border-radius: 8px;
+}
+
+.section-container .rates-container .rates-proj {
+    background: #cae1fe;
+    padding: 5px 8px 5px 8px;
+    border-radius: 8px;
+}
+
+.section-container .role-exp {
+    font-size: 12px;
+}
+
+.section-container .experience-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    line-height: 5px;
+}
+
+.section-container .experience-container .experience {
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.section-container .company {
+    font-size: 12px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 12px;
+}
+
+.btn a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 12px 52px 12px 52px;
+    border-radius: 8px;
+}
+
+.btn .viewprof-btn {
+    background: white;
+    color: black;
+}
+
+.btn .touch-btn {
+    background: #5cade4;
+    color: white;
+}
