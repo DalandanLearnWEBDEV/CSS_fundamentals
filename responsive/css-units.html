@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Units</title>
+    <style>
+        /* Percent base on the parent*/
+        .parent {
+            width: 400px;
+            border: 2px solid black;
+        }
+
+        .box {
+            border: 2px solid black;
+            background: red;
+        }
+
+        .fity-percent {
+            width: 50%;
+
+        }
+
+        /* vw & vw base on the entire screen*/
+        .fifty-vw {
+            width: 50vw;
+        }
+
+        .fifty-section-vh {
+            height: 50vh;
+        }
+
+        /*rem & em */
+        .one-rem {
+            font-size: 1rem;
+        }
+
+        .two-rem {
+            font-size: 2rem;
+        }
+
+        .one-em {
+            font-size: 1em;
+        }
+
+        .two-em {
+            font-size: 2em;
+        }
+
+        /* with parent element (rem & em) */
+        .font-parent {
+            font-size: 30px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- For percent, vw, & vh-->
+    <div class="parent">
+        <div class="box fity-percent">Box 50%</div>
+    </div>
+
+    <div class="box fifty-vw">50vw</div>
+
+    <div class="box fifty-section-vh">Section 100vh</div>
+
+    <!--For rem and em-->
+    <div class="one-rem">1rem</div>
+    <div class="two-rem">2rem</div>
+    <div class="one-em">1em</div>
+    <div class="two-em">2em</div>
+
+    <!-- With parent container -->
+    <div class="font-parent">
+        <div class="one-rem">1rem</div>
+        <div class="two-rem">2rem</div>
+        <div class="one-em">1em</div>
+        <div class="two-em">2em</div>
+    </div>
+</body>
+
+</html>
