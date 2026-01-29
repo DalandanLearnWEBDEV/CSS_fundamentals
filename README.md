@@ -11,7 +11,7 @@
 8. Colors UI Polish CSS  - (HEX, RGB, HSL, Contrast, border-radius)  
 9. Transitions & Hover  - (transition, :hover, transform: scale/translate)  
 10. Common UI Components  - (Button states, form inputs, card components, modal(basis))  
-11. Cleanup + Best Practices  - (css reset, reusable classes, naming(.btn-primary, .card,),)  
+11. Cleanup + Best Practices  - (css reset, reusable classes, naming(.btn-primary, .card,)) 
 
 ## Mini Projects  
 - Pricing Plan Card  
